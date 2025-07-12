@@ -5,23 +5,23 @@
     <packaging>war</packaging>
     <name>swagger-petstore</name>
     <description>swagger-petstore</description>
-    <url>https://github.com/swagger-api/swagger-petstore</url>
+    <url>https://github.com/bossbabyy/swagger-petstore-org</url>
     <version>1.0.27-SNAPSHOT</version>
     <scm>
         <connection>scm:git:git@github.com:swagger-api/swagger-petstore.git</connection>
         <developerConnection>scm:git:git@github.com:swagger-api/swagger-petstore.git</developerConnection>
-        <url>https://github.com/swagger-api/swagger-petstore</url>
+        <url>https://github.com/bossbabyy/swagger-petstore-org</url>
     </scm>
     <developers>
         <developer>
-            <id>frantuma</id>
-            <name>Francesco Tumanischvili</name>
-            <email>frantuma@yahoo.com</email>
+            <id>bossbabyy</id>
+            <name>boss bossbabyy</name>
+            <email>bossbabyy@yahoo.com</email>
         </developer>
     </developers>
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/swagger-api/swagger-petstore/issues</url>
+        <url>https://github.com/bossbabyy/swagger-petstore-org/issues</url>
     </issueManagement>
     <licenses>
         <license>

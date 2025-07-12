@@ -8,9 +8,9 @@ info:
     That way, with time, we can improve the API in general, and expose some of the new features in OAS3.
 
     Some useful links:
-    - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
-    - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
-  termsOfService: https://swagger.io/terms/
+    - [The Pet Store repository](https://github.com/bossbabyy/swagger-petstore-org)
+    - [The source API definition for the Pet Store](https://github.com/bossbabyy/swagger-petstore-org/blob/master/src/main/resources/openapi.yaml)
+  # termsOfService: https://swagger.io/terms/
   contact:
     email: apiteam@swagger.io
   license:
@@ -21,18 +21,19 @@ externalDocs:
   description: Find out more about Swagger
   url: https://swagger.io
 servers:
-  - url: https://petstore3.swagger.io/api/v3
+  - url: http://localhost:8080/api/v3
+    description: Swagger Petstore API Server
 tags:
   - name: pet
     description: Everything about your Pets
-    externalDocs:
-      description: Find out more
-      url: https://swagger.io
+    # externalDocs:
+    #   description: Find out more
+    #   url: https://swagger.io
   - name: store
     description: Access to Petstore orders
-    externalDocs:
-      description: Find out more about our store
-      url: https://swagger.io
+    # externalDocs:
+    #   description: Find out more about our store
+    #   url: https://swagger.io
   - name: user
     description: Operations about user
 paths:
